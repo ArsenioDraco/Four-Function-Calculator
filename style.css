@@ -1,5 +1,17 @@
 :root{
+--bg-main: radial-gradient(circle at top, #1a1a26, #06060a 60%);
+        --glass: rgba(255,255,255,0.06);
+        --accent: #00ffe1;
+        --accent-strong: #00c9b0;
+        --danger: #ff3b3b;
+        --glow: 0 0 12px var(--accent);
+        --radius: 22px;
+        --transition: 0.25s ease;
+        --shadow-soft: 0 0 25px rgba(0,0,0,0.5);
+        --shadow-inset: inset 0 0 12px rgba(0,0,0,0.45);
 }
+
+
 
 body{
 }
