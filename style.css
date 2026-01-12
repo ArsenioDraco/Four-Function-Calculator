@@ -32,12 +32,15 @@ margin: 0;
 
 
 .calc-container{
-
-
-
-
-
-
+background: var(--glass);
+        backdrop-filter: blur(25px) saturate(160%);
+        padding: 32px;
+        border-radius: var(--radius);
+        width: 360px;
+        box-shadow: var(--shadow-soft);
+        position: relative;
+        overflow: hidden;
+        animation: float 6s ease-in-out infinite;
 }
 
 .calc-container::before {
