@@ -25,7 +25,19 @@ margin: 0;
         animation: bgshift 12s infinite alternate ease-in-out;
 }
 
+@keyframes bgshift {
+        from { filter: hue-rotate(0deg); }
+        to { filter: hue-rotate(30deg); }
+    }
+
+
 .calc-container{
+
+
+
+
+
+
 }
 
 .calc-container::before {
