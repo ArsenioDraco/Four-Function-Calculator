@@ -1,1 +1,50 @@
+:root{
+}
 
+body{
+}
+
+.calc-container{
+}
+
+.calc-container::before {
+}
+
+.display{
+}
+
+.buttons{
+}
+
+button{
+}
+
+button:hover {
+}
+
+button:active {
+}
+
+button:after{
+}
+
+button:active::after {
+}
+
+.operator{
+}
+
+.equals{
+}
+
+.clear{
+}
+
+button[data-tip] {
+}
+
+button[data-tip]::before {
+}
+
+button[data-tip]:hover::before {
+}
