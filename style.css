@@ -50,7 +50,18 @@ background: var(--glass);
 
 
 .calc-container::before {
+content: "";
+        position: absolute;
+        inset: 0;
+        border-radius: inherit;
+        padding: 2px;
+        background: conic-gradient(from 90deg, #00ffe1, #008cff, #ff00aa, #00ffe1);
+        mask: linear-gradient(#000 0 0) content-box, linear-gradient(#000 0 0);
+        mask-composite: exclude;
+        animation: rotateBorder 8s linear infinite;
 }
+
+
 
 .display{
 }
