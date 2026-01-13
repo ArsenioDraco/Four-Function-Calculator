@@ -43,6 +43,12 @@ background: var(--glass);
         animation: float 6s ease-in-out infinite;
 }
 
+@keyframes float {
+        0%, 100% { transform: translateY(-4px); }
+        50% { transform: translateY(6px); }
+    }
+
+
 .calc-container::before {
 }
 
