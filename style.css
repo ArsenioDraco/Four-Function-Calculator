@@ -89,6 +89,17 @@ display: grid;
 }
 
 button{
+font-size: 1.3rem;
+        padding: 18px;
+        border-radius: 18px;
+        border: none;
+        cursor: pointer;
+        background: linear-gradient(145deg, #2a2a3d, #1a1a27);
+        color: white;
+        box-shadow: 6px 6px 14px #0a0a10, -6px -6px 14px #32324a;
+        transition: var(--transition);
+        position: relative;
+        overflow: hidden;
 }
 
 button:hover {
