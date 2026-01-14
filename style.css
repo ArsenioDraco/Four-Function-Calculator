@@ -103,6 +103,8 @@ font-size: 1.3rem;
 }
 
 button:hover {
+color: var(--accent);
+box-shadow: 0 0 18px rgba(0,255,225,0.5);
 }
 
 button:active {
