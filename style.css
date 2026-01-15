@@ -124,6 +124,8 @@ pointer-events: none;
 }
 
 button:active::after {
+width: 200px;
+height: 200px;
 }
 
 .operator{
