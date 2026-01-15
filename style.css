@@ -129,6 +129,8 @@ height: 200px;
 }
 
 .operator{
+background: linear-gradient(145deg, #ff0084, #b9005f);
+box-shadow: 6px 6px 12px #55002f, -6px -6px 12px #ff33a2;
 }
 
 .equals{
