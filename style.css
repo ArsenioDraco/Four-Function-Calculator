@@ -134,6 +134,9 @@ box-shadow: 6px 6px 12px #55002f, -6px -6px 12px #ff33a2;
 }
 
 .equals{
+background: linear-gradient(145deg, #0091ff, #005fcc);
+box-shadow: 6px 6px 12px #003566, -6px -6px 12px #339dff;
+grid-column: span 2;
 }
 
 .clear{
