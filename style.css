@@ -145,6 +145,7 @@ box-shadow: 6px 6px 12px #660a0a, -6px -6px 12px #ff5a5a;
 }
 
 button[data-tip] {
+position: relative;
 }
 
 button[data-tip]::before {
