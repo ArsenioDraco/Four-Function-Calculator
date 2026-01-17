@@ -65,7 +65,7 @@ animation: rotateBorder 8s linear infinite;
 
 
 .display{
-width: 100%;
+width: 325px;
 border: none;
 padding: 20px;
 font-size: 2.2rem;
