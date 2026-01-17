@@ -149,6 +149,19 @@ position: relative;
 }
 
 button[data-tip]::before {
+content: attr(data-tip);
+position: absolute;
+bottom: 120%;
+left: 50%;
+transform: translateX(-50%);
+background: #000;
+padding: 6px 10px;
+border-radius: 6px;
+opacity: 0;
+pointer-events: none;
+transition: var(--transition);
+white-space: nowrap;
+font-size: 0.8rem;
 }
 
 button[data-tip]:hover::before {
