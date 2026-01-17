@@ -165,4 +165,5 @@ font-size: 0.8rem;
 }
 
 button[data-tip]:hover::before {
+opacity: 1;
 }
